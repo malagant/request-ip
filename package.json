@@ -6,7 +6,8 @@
   "author": "michael.johann@telekom.de",
   "license": "MIT",
   "scripts": {
-    "build": "echo 'noop'"
+    "build": "echo 'noop'",
+    "start": "node ./request-ip.js"
   },
   "dependencies": {
     "connect": "^3.7.0",
