@@ -10,6 +10,10 @@ app.use(function(req, res) {
     // by default, the ip address will be set on the `clientIp` attribute
     var ip = req.clientIp;
     res.end(ip + '\n');
+
+    ip = req.requestIp;
+    res.end(ip + '\n');
+
 });
 
 //create node.js http server and listen on port
