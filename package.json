@@ -1,0 +1,12 @@
+{
+  "name": "request-ip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "request-ip.js",
+  "author": "michael.johann@telekom.de",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "request-ip": "^2.1.3"
+  }
+}
